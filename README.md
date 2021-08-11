@@ -27,6 +27,7 @@ This code allows to:
 
 Python 3.6 is required. It is advised to run the following  command within a virtual environment. By default, TensorFlow 1.12 GPU will be installed. You will be prompted to provide the path to a data folder (subsequently referred as `$DATA_PATH`) containing the datasets and pre-trained models and to an experiment folder (`$EXPER_PATH`) containing the trained models, training and evaluation logs, and CNN predictions. Create them wherever you wish and make sure to provide absolute paths. PyTorch 0.4.1 is also required to run the original SuperPoint and perform GPU-accelerated feature matching.
 ```bash
+conda install -c anaconda cudnn=7.4.0
 make install  # install Python requirements, setup paths
 ```
 
